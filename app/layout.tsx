@@ -17,11 +17,11 @@ const bebasNeue = Bebas_Neue({
 })
 
 export const metadata: Metadata = {
-  title: "Felino Zieballe | Artista · Compositor · Showman",
+  title: "Paulo Zieballe | Artista · Compositor · Showman",
   description:
-    "Sitio oficial de Felino Zieballe. Artista, compositor y showman con participaciones en Gran Rojo y The Voice. Disponible para shows en formato solista, acústico y full banda.",
+    "Sitio oficial de Paulo Zieballe. Artista, compositor y showman con participaciones en Gran Rojo y The Voice. Disponible para shows en formato solista, acústico y full banda.",
   generator: "v0.app",
-  keywords: ["Felino Zieballe", "artista", "músico", "compositor", "shows en vivo", "Gran Rojo", "The Voice"],
+  keywords: ["Paulo Zieballe", "artista", "músico", "compositor", "shows en vivo", "Gran Rojo", "The Voice"],
   icons: {
     icon: [
       {

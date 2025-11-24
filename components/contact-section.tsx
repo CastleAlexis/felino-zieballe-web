@@ -12,22 +12,22 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "contacto@felinozieballe.com",
-    href: "mailto:contacto@felinozieballe.com",
+    value: "contacto@paulozieballe.com",
+    href: "mailto:contacto@paulozieballe.com",
     color: "hover:bg-blue-50 hover:border-blue-500",
   },
   {
     icon: Instagram,
     label: "Instagram",
-    value: "@felinozieballe",
-    href: "https://instagram.com/felinozieballe",
+    value: "@paulozieballe",
+    href: "https://instagram.com/paulozieballe",
     color: "hover:bg-pink-50 hover:border-pink-500",
   },
   {
     icon: Facebook,
     label: "Facebook",
-    value: "Felino Zieballe",
-    href: "https://facebook.com/felinozieballe",
+    value: "Paulo Zieballe",
+    href: "https://facebook.com/paulozieballe",
     color: "hover:bg-blue-50 hover:border-blue-600",
   },
 ]

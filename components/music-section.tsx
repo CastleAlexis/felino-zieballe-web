@@ -22,8 +22,15 @@ export function MusicSection() {
               <Play className="w-6 h-6 text-primary" />
               Escucha en Spotify
             </h3>
-            <div className="aspect-[16/9] md:aspect-[16/6] bg-muted rounded-md flex items-center justify-center">
-              <p className="text-muted-foreground">[Spotify Player Embed - Agregar URL de Spotify]</p>
+            <div className="bg-muted rounded-md">
+              <iframe
+                src="https://open.spotify.com/embed/artist/7CBE77GM6zUye4E5YsHiu8?utm_source=generator"
+                title="Paulo Zieballe - Spotify"
+                loading="lazy"
+                frameBorder={0}
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                className="w-full h-[352px] rounded-xl"
+              />
             </div>
           </div>
 
@@ -31,26 +38,37 @@ export function MusicSection() {
           <div>
             <h3 className="text-2xl font-semibold text-foreground mb-6">Videos Musicales</h3>
             <div className="grid md:grid-cols-2 gap-8">
-              {[1, 2, 3, 4].map((video) => (
+              {[
+                { id: 'EYfMBiwr3W8', title: 'POLIAMOR x PAULO ZIEBALLE ( VIDEO OFICIAL )' },
+                { id: 'd8x8BIMIIIM', title: 'Paulo Zieballe - Déjala que pruebe ( Oficial Video )' },
+                { id: 'OXympwlXDkI', title: 'Encuentro - Paulo Zieballe ( video oficial )' },
+                { id: 'Fe98yAqDsXk', title: 'Ya no se que hacer - Paulo Zieballe ( Video Oficial )' },
+              ].map((video) => (
                 <div
-                  key={video}
-                  className="bg-background rounded-lg shadow-lg overflow-hidden border border-border group hover:border-primary transition-colors"
+                  key={video.id}
+                  className="bg-background rounded-lg shadow-lg overflow-hidden border border-border"
                 >
-                  <div className="aspect-video bg-muted flex items-center justify-center relative overflow-hidden">
-                    <img
-                      src={`/music-video-performance-artist-.jpg?height=360&width=640&query=music+video+performance+artist+${video}`}
-                      alt={`Video ${video}`}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  <div className="aspect-video bg-muted rounded-t-md overflow-hidden">
+                    <iframe
+                      src={`https://www.youtube.com/embed/${video.id}?rel=0&modestbranding=1`}
+                      title={video.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
                     />
-                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                      <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center">
-                        <Play className="w-8 h-8 text-white ml-1" />
-                      </div>
-                    </div>
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-foreground">Video Título {video}</h4>
-                    <p className="text-sm text-muted-foreground">Descripción del video musical</p>
+                    <h4 className="font-semibold text-foreground">
+                      <a
+                        href={`https://youtu.be/${video.id}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        {video.title}
+                      </a>
+                    </h4>
+                    <p className="text-sm text-muted-foreground">Reproducir en YouTube</p>
                   </div>
                 </div>
               ))}

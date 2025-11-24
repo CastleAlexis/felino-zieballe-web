@@ -10,8 +10,8 @@ export function Footer() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             {/* Brand */}
             <div>
-              <h3 className="font-[family-name:var(--font-display)] text-3xl tracking-wider text-foreground mb-2">
-                FELINO ZIEBALLE
+              <h3 className="font-sans text-3xl tracking-wider text-foreground mb-2">
+                Paulo Zieballe
               </h3>
               <p className="text-muted-foreground">Artista · Compositor · Showman</p>
             </div>
@@ -79,7 +79,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="pt-8 border-t border-primary/20 text-center">
-            <p className="text-sm text-muted-foreground">© 2025 Felino Zieballe. Todos los derechos reservados.</p>
+            <p className="text-sm text-muted-foreground">© 2025 Paulo Zieballe. Todos los derechos reservados.</p>
           </div>
         </div>
       </div>

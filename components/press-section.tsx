@@ -6,22 +6,22 @@ export function PressSection() {
     {
       id: 1,
       src: "/images/press-1.jpg",
-      alt: "Felino Zieballe - Snake Print Hooded Look",
+      alt: "Paulo Zieballe - Snake Print Hooded Look",
     },
     {
       id: 2,
       src: "/images/press-2.jpg",
-      alt: "Felino Zieballe - Mesh Top Profile",
+      alt: "Paulo Zieballe - Mesh Top Profile",
     },
     {
       id: 3,
       src: "/images/press-3.jpg",
-      alt: "Felino Zieballe - Striped Overalls",
+      alt: "Paulo Zieballe - Striped Overalls",
     },
     {
       id: 4,
       src: "/images/press-4.jpg",
-      alt: "Felino Zieballe - Sunglasses Black Vest",
+      alt: "Paulo Zieballe - Sunglasses Black Vest",
     },
   ]
 
@@ -48,12 +48,17 @@ export function PressSection() {
               <p className="text-white/90 mb-6 max-w-2xl">
                 Biografía completa, fotos en alta resolución, rider técnico y material promocional
               </p>
-              <Button size="lg" className="bg-primary hover:bg-accent text-primary-foreground rounded-full px-8">
-                <Download className="mr-2 h-5 w-5" />
+              <a
+                href="/presskit.pdf"
+                download
+                className="px-6 py-3 bg-[#d6a46d] text-white rounded-full shadow hover:opacity-90 transition"
+              >
                 Descargar Press Kit (PDF)
-              </Button>
+              </a>
             </div>
           </div>
+
+          
 
           {/* Press Photos Grid */}
           <div>

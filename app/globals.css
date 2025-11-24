@@ -3,7 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Felino Zieballe color palette in oklch format - beige, gold, elegant */
+/* Paulo Zieballe color palette in oklch format - beige, gold, elegant */
 :root {
   --background: oklch(0.96 0.01 80);
   --foreground: oklch(0.15 0 0);
@@ -126,7 +126,7 @@
   }
 }
 
-/* Custom scrollbar styling for Felino Zieballe brand */
+/* Custom scrollbar styling for Paulo Zieballe brand */
 ::-webkit-scrollbar {
   width: 10px;
 }

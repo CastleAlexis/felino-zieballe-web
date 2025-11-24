@@ -10,7 +10,7 @@ export function AboutSection() {
             <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000" />
             <img
               src="/images/felino-about.jpg"
-              alt="Felino Zieballe Portrait"
+              alt="Paulo Zieballe Portrait"
               className="relative rounded-lg w-full h-auto shadow-2xl border-2 border-primary/20"
             />
           </div>
@@ -23,7 +23,7 @@ export function AboutSection() {
             <div className="w-24 h-1 bg-primary" />
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Felino Zieballe es un artista versátil que ha cautivado audiencias en diferentes escenarios y plataformas.
+              Paulo Zieballe es un artista versátil que ha cautivado audiencias en diferentes escenarios y plataformas.
               Con una carrera marcada por la pasión y la dedicación, ha logrado posicionarse como una figura destacada
               en la escena musical.
             </p>

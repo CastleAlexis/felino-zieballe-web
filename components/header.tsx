@@ -24,8 +24,8 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="#home" className="flex items-center">
-            <span className="font-[family-name:var(--font-display)] text-3xl md:text-4xl tracking-wider text-foreground hover:text-primary transition-colors">
-              FELINO ZIEBALLE
+            <span className="font-sans text-3xl md:text-4xl tracking-wider text-foreground hover:text-primary transition-colors">
+              Paulo Zieballe
             </span>
           </Link>
 
